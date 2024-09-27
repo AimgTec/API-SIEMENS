@@ -1,0 +1,17 @@
+# No terminal, navegue até a pasta onde está seu projeto
+cd C:\Users\AVELL\Documents\GitHub\API-SIEMENS
+
+# Inicie um repositório Git local
+git init
+
+# Adicione os arquivos ao repositório
+git add .
+
+# Faça o primeiro commit
+git commit -m "Primeiro commit - Integração com API da Siemens"
+
+# Conecte ao repositório remoto no GitHub
+git remote add origin https://github.com/seu-usuario/integracao-api-siemens.git
+
+# Envie seu código para o GitHub
+git push -u origin master
